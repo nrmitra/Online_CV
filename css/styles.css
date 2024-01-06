@@ -3,26 +3,36 @@ body{
     overflow:visible !important;
     font-family: Inter;
     color: #002060;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     
 }
-.img{
+.banner{
+    position: relative;
+    text-align: center;
+}
+/*
+img{
     
     box-shadow: 0px 4px 4px 0px rgba(128, 120, 120, 0.25);
 }
+*/
 h2{
-    color: #002060;
     text-align: center;
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-p#name{
-    width: 212px;
+.name-banner{
+    /*width: 212px;
     height: 32px;
-    flex-shrink: 0;
-
+    flex-shrink: 0;*/
+    top: 291px;
+    left: 40%;
+    position: absolute;
     color: #FFF;
     font-family: Inter;
     font-size: 22px;
@@ -30,15 +40,17 @@ p#name{
     font-weight: 700;
     line-height: normal;
 
-    margin-top: 8px;
-    margin-left: 531px;
+    /*margin-top: 8px;
+    /*margin-left: 531px;*/
 
 }
-p#designation{
-    width: 212px;
+.designation-banner{
+    /*width: 212px;
     height: 32px;
-    flex-shrink: 0;
-
+    flex-shrink: 0;*/
+    top: 323px;
+    left: 40%;
+    position: absolute;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -47,8 +59,8 @@ p#designation{
     font-weight: 400;
     line-height: normal;
 }
-.About_Rectangle{
-    width: 1206px;
+.about-container{
+    width: 1240px;
     height: 260px;
     flex-shrink: 0;
     position: absolute;
@@ -61,30 +73,30 @@ p#designation{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
-.Experience_Rectangle{
-    width: 1206px;
-    height: 260px;
-    flex-shrink: 0;
-    
-    margin-top: 67px;
-    margin-left: 41px;
-
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
-.About_Me{
+.about-me-header{
     position: absolute;
     margin-left: 523px;
     margin-top: 27px;
     margin-bottom: 194px;
 }
-.About_Me_text{
+.about-me-text{
     
+    margin-top: 90px;
     text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    /*font-size: 22px;*/
+    
+}
+
+.Experience_Rectangle{
+    width: 1250px;
+    height: 260px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 85px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
