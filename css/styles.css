@@ -1,5 +1,8 @@
 body{
     background-color: #F5F5F5;
+    overflow:visible !important;
+    font-family: Inter;
+    color: #002060;
     
 }
 .img{
@@ -50,7 +53,8 @@ p#designation{
     flex-shrink: 0;
     position: absolute;
     margin-top: 67px;
-    margin-left: 41px;
+    margin-left: 85px;
+    margin-right: 33px;
 
     border-radius: 5px;
     background: #FFF;
@@ -75,4 +79,12 @@ p#designation{
     margin-left: 523px;
     margin-top: 27px;
     margin-bottom: 194px;
+}
+.About_Me_text{
+    
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
