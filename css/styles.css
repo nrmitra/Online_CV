@@ -1,0 +1,78 @@
+body{
+    background-color: #F5F5F5;
+    
+}
+.img{
+    
+    box-shadow: 0px 4px 4px 0px rgba(128, 120, 120, 0.25);
+}
+h2{
+    color: #002060;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p#name{
+    width: 212px;
+    height: 32px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 8px;
+    margin-left: 531px;
+
+}
+p#designation{
+    width: 212px;
+    height: 32px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.About_Rectangle{
+    width: 1206px;
+    height: 260px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 41px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.Experience_Rectangle{
+    width: 1206px;
+    height: 260px;
+    flex-shrink: 0;
+    
+    margin-top: 67px;
+    margin-left: 41px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.About_Me{
+    position: absolute;
+    margin-left: 523px;
+    margin-top: 27px;
+    margin-bottom: 194px;
+}
