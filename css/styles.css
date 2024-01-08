@@ -9,23 +9,6 @@ body{
     line-height: normal;
     
 }
-.banner{
-    position: relative;
-    text-align: center;
-}
-/*
-img{
-    
-    box-shadow: 0px 4px 4px 0px rgba(128, 120, 120, 0.25);
-}
-*/
-.profile-photo{
-    border-radius: 50%;
-    position: absolute;
-    top: 73px;
-    left: 40%;
-}
-
 h2{
     text-align: center;
     font-size: 32px;
@@ -33,12 +16,31 @@ h2{
     font-weight: 700;
     line-height: normal;
 }
+.banner{
+    position: relative;
+    text-align: center;
+   
+}
+/*
+img{
+    
+    box-shadow: 0px 4px 4px 0px rgba(128, 120, 120, 0.25);
+}
+*/
+
+.profile-photo{
+    border-radius: 50%;
+    position: absolute;
+    top: 17%;
+    left: 42%;
+}
+
 .name-banner{
     /*width: 212px;
     height: 32px;
     flex-shrink: 0;*/
-    top: 291px;
-    left: 40%;
+    top: 64%;
+    left: 42%;
     position: absolute;
     color: #FFF;
     font-family: Inter;
@@ -55,8 +57,8 @@ h2{
     /*width: 212px;
     height: 32px;
     flex-shrink: 0;*/
-    top: 323px;
-    left: 40%;
+    top: 70%;
+    left: 42%;
     position: absolute;
     color: #FFF;
     text-align: center;
@@ -70,40 +72,57 @@ h2{
     width: 1240px;
     height: 260px;
     flex-shrink: 0;
-    position: absolute;
-    margin-top: 67px;
-    margin-left: 85px;
-    margin-right: 33px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 7%;
+    /*margin-right: 33px;*/
 
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
-.about-me-header{
+.container-header-about-me{
     position: absolute;
-    margin-left: 523px;
+
+    top: 0%;
+    left: 42%;
+    
+    /*margin-left: 523px;
     margin-top: 27px;
-    margin-bottom: 194px;
+    margin-bottom: 194px;*/
 }
 .about-me-text{
-    
-    margin-top: 90px;
+    position: absolute;
     text-align: center;
+    top: 35%;
+    left: 5%;
+    /*margin-top: 90px;
     /*font-size: 22px;*/
     
 }
 
-.Experience_Rectangle{
-    width: 1250px;
+.experience-container{
+    width: 1240px;
     height: 260px;
     flex-shrink: 0;
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 85px;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 7%;
 
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
+.container-header-experience{
+    position: absolute;
+
+    top: 0%;
+    left: 33%;
+    
+    /*margin-left: 523px;
+    margin-top: 27px;
+    margin-bottom: 194px;*/
 }

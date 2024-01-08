@@ -1,0 +1,85 @@
+:root{
+    background-color: #F5F5F5;
+    overflow:visible !important;
+    font-family: Inter;
+    color: #002060;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.banner{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.profile-photo{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    position: absolute;
+    top: 17%;
+    left: 42%;
+}
+.banner-name{
+    position: absolute;
+    left: 42%;
+    top: 64%;
+    /* background-color: #002060; */
+    margin: 0%;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-designation{
+    position: absolute;
+    /* background-color: red; */
+    left: 42%;
+    top: 70%;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-box{
+    
+   
+    margin-top: 2%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+.about-header{
+    
+    /* background-color: red;
+    border: 2px springgreen solid; */
+    padding-left: 0;
+    padding-right: 0%;
+    
+    
+}
+.about-me-text{
+    /* background-color: aqua;
+    border: 2px red solid; */
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding-right: 0%;
+}
