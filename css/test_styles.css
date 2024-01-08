@@ -84,6 +84,30 @@ h2{
     margin-bottom: 3%;
     padding-right: 0%;
 }
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.experience-1{
+    display: flex;
+    flex-direction: row;
+}
+.bullet-point-icon{
+    width: 6%;
+}
+.position-company{
+    text-align: left;
+    width: 65%;
+}
+.experience-description{
+    width: 80%;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
 .qualifications-container{
     display: flex;
     flex-direction: column;
