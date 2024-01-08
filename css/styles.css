@@ -1,4 +1,4 @@
-body{
+:root{
     background-color: #F5F5F5;
     overflow:visible !important;
     font-family: Inter;
@@ -7,7 +7,6 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 h2{
     text-align: center;
@@ -16,113 +15,137 @@ h2{
     font-weight: 700;
     line-height: normal;
 }
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
 .banner{
-    position: relative;
     text-align: center;
-   
+    position: relative;
+    color: white;
 }
-/*
-img{
-    
-    box-shadow: 0px 4px 4px 0px rgba(128, 120, 120, 0.25);
-}
-*/
-
 .profile-photo{
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     position: absolute;
     top: 17%;
     left: 42%;
 }
-
-.name-banner{
-    /*width: 212px;
-    height: 32px;
-    flex-shrink: 0;*/
-    top: 64%;
-    left: 42%;
+.banner-name{
     position: absolute;
-    color: #FFF;
-    font-family: Inter;
+    left: 42%;
+    top: 64%;
+    /* background-color: #002060; */
+    margin: 0%;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
-    /*margin-top: 8px;
-    /*margin-left: 531px;*/
-
 }
-.designation-banner{
-    /*width: 212px;
-    height: 32px;
-    flex-shrink: 0;*/
-    top: 70%;
-    left: 42%;
+.banner-designation{
     position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
+    /* background-color: red; */
+    left: 42%;
+    top: 70%;
     font-size: 22px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
 }
-.about-container{
-    width: 1240px;
-    height: 260px;
-    flex-shrink: 0;
-    position: relative;
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 7%;
-    /*margin-right: 33px;*/
-
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
-.container-header-about-me{
-    position: absolute;
-
-    top: 0%;
-    left: 42%;
+.section-box{
     
-    /*margin-left: 523px;
-    margin-top: 27px;
-    margin-bottom: 194px;*/
+   
+    margin-top: 2%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+.about-header{
+    
+    /* background-color: red;
+    border: 2px springgreen solid; */
+    padding-left: 0;
+    padding-right: 0%;
+    
+    
 }
 .about-me-text{
-    position: absolute;
-    text-align: center;
-    top: 35%;
-    left: 5%;
-    /*margin-top: 90px;
-    /*font-size: 22px;*/
-    
+    /* background-color: aqua;
+    border: 2px red solid; */
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding-right: 0%;
 }
 
 .experience-container{
-    width: 1240px;
-    height: 260px;
-    flex-shrink: 0;
-    position: relative;
-    margin-top: 60px;
-    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.experience-1{
+    display: flex;
+    flex-direction: row;
+}
+.bullet-point-icon{
+    width: 6%;
+}
+.position-company{
+    text-align: left;
+    width: 65%;
+}
+.experience-description{
+    width: 80%;
+    text-align: left;
+    margin-bottom: 4%;
+}
 
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.qualifications-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.qualifications-1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.degree-college{
+    /* background-color: red;
+    border: 2px springgreen solid; */
+    text-align: left;
+    width: 70%;
+    font-size: 0.9rem;
+}
+.location{
+    /* background-color: aqua;
+    border: 2px red solid; */
+    font-size: 1rem;
+    width: 30%;
+    text-align: right;
 
 }
-.container-header-experience{
-    position: absolute;
+.qualification-description{
 
-    top: 0%;
-    left: 33%;
+    /* background-color: bisque;
+    border: 2px solid magenta; */
+
+    margin-top: 0%;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
     
-    /*margin-left: 523px;
-    margin-top: 27px;
-    margin-bottom: 194px;*/
+    
 }
