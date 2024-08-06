@@ -88,6 +88,47 @@ section{
     /* margin: 4% auto; */
 }
 
+.job-info{
+    /* border: 2px solid greenyellow; */
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+}
+
+.corp-logo{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* border: 2px solid blueviolet; */
+}
+
+.job{
+    display: grid;
+    /* border: 2px solid burlywood; */
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.job-title-duration{
+    text-align: start;
+    /* border: 2px solid red; */
+}
+
+.job-location,
+.job-period{
+    font-style: italic;
+}
+.job-title{
+    font-weight: var(--fw-bold);
+}
+.job-description{
+    height: fit-content;
+    text-align: start;
+    font-size: var(--fw-regular);
+    /* border: 2px solid orange; */
+    /* margin-top: 10px;*/
+    margin-bottom: 25px;
+}
+
 
 /* #profile-photo{
     width: 210px;
